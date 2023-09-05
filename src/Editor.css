@@ -1,0 +1,207 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#editor-title {
+  width: 37.9rem;
+  height: 35px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #4aa3a3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 10px 1px rgb(73, 73, 73);
+  box-sizing: border-box;
+}
+#editor-title > div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 7px;
+}
+
+#editor {
+  width: 37.9rem;
+  padding: 0 6px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: #c0d8d8;
+  box-shadow: 0px 5px 10px 1px rgb(73, 73, 73);
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+.maximize-icon {
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+.maximize-icon:active {
+  color: #5fc4c4;
+}
+
+#preview-title {
+  max-width: 50rem;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 1px solid black;
+  background-color: #4aa3a3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 10px 1px rgb(73, 73, 73);
+}
+#preview-title > div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 7px;
+}
+
+#preview {
+  max-width: 50rem;
+  min-height: 170px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #c0d8d8;
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 10px 1px rgb(73, 73, 73);
+}
+
+#preview-content {
+  margin: 10px 20px;
+  text-align: left;
+}
+
+#preview-content img {
+  width: 90%;
+  margin: 10px 30px;
+}
+
+#preview-content pre {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#preview-content code {
+  color: #708090;
+  background-color: white;
+}
+
+#preview-content table {
+  border-collapse: collapse;
+}
+#preview-content td,
+#preview-content th {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+#preview-content br {
+  display: block;
+}
+
+#preview-content blockquote {
+  border-left: 3px solid black;
+  padding-left: 8px;
+}
+
+#preview-content h1 {
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}
+
+#preview-content h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+}
+
+@media screen and (max-width: 850px) {
+  #editor-title {
+    box-sizing: border-box;
+    width: 32rem;
+    height: 35px;
+  }
+  #editor {
+    width: 32rem;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+  #preview-title {
+    max-width: 42rem;
+  }
+
+  #preview {
+    max-width: 42rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  #editor-title {
+    box-sizing: border-box;
+    width: 25rem;
+    height: 35px;
+  }
+  #editor {
+    width: 25rem;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+  #preview-title {
+    max-width: 32rem;
+  }
+
+  #preview {
+    max-width: 32rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #editor-title {
+    box-sizing: border-box;
+    width: 18rem;
+    height: 35px;
+  }
+  #editor {
+    width: 18rem;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+  #preview-title {
+    max-width: 25rem;
+  }
+
+  #preview {
+    max-width: 25rem;
+  }
+  #preview-content pre {
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #editor-title {
+    box-sizing: border-box;
+    width: 14rem;
+    height: 35px;
+  }
+  #editor {
+    width: 14rem;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+  #preview-title {
+    max-width: 20rem;
+  }
+
+  #preview {
+    max-width: 20rem;
+  }
+  #preview-content pre {
+    overflow: auto;
+  }
+}
