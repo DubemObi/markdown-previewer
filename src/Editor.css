@@ -61,7 +61,7 @@ body {
   gap: 7px;
 }
 
-#preview {
+#preview-content {
   max-width: 50rem;
   min-height: 170px;
   margin: 0 auto;
@@ -71,51 +71,51 @@ body {
   box-shadow: 0px 5px 10px 1px rgb(73, 73, 73);
 }
 
-#preview-content {
+#preview {
   margin: 10px 20px;
   text-align: left;
 }
 
-#preview-content img {
+#preview img {
   width: 90%;
   margin: 10px 30px;
 }
 
-#preview-content pre {
+#preview pre {
   background-color: white;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
 }
-#preview-content code {
+#preview code {
   color: #708090;
   background-color: white;
 }
 
-#preview-content table {
+#preview table {
   border-collapse: collapse;
 }
-#preview-content td,
-#preview-content th {
+#preview td,
+#preview th {
   border: 2px solid black;
   padding: 5px;
 }
 
-#preview-content br {
+#preview br {
   display: block;
 }
 
-#preview-content blockquote {
+#preview blockquote {
   border-left: 3px solid black;
   padding-left: 8px;
 }
 
-#preview-content h1 {
+#preview h1 {
   border-bottom: 2px solid black;
   padding-bottom: 4px;
 }
 
-#preview-content h2 {
+#preview h2 {
   border-bottom: 1px solid black;
   padding-bottom: 3px;
 }
@@ -135,7 +135,7 @@ body {
     max-width: 42rem;
   }
 
-  #preview {
+  #preview-content {
     max-width: 42rem;
   }
 }
@@ -155,7 +155,7 @@ body {
     max-width: 32rem;
   }
 
-  #preview {
+  #preview-content {
     max-width: 32rem;
   }
 }
@@ -175,10 +175,10 @@ body {
     max-width: 25rem;
   }
 
-  #preview {
+  #preview-content {
     max-width: 25rem;
   }
-  #preview-content pre {
+  #preview pre {
     overflow: auto;
   }
 }
@@ -198,10 +198,10 @@ body {
     max-width: 20rem;
   }
 
-  #preview {
+  #preview-content {
     max-width: 20rem;
   }
-  #preview-content pre {
+  #preview pre {
     overflow: auto;
   }
 }
